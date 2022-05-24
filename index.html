@@ -10,9 +10,6 @@ layout: default
     </div>
     <div class="bio">
 	    {{ site.description }}
-        <p>
-	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
-        </p>
     </div>
 
 
@@ -31,12 +28,12 @@ layout: default
         </svg>
     </label>
 
-    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <input type="search" id="search-input" placeholder="Search editions" aria-label="Search">
     <ul id="search-results"></ul>
 </div>
 
 <section class="posts" id="Blog">
-    <h2>BLOG</h2>
+    <h2>ARCHIVED EDITIONS</h2>
     <ul>
         {% for post in site.posts %}
         <li>
